@@ -9,3 +9,5 @@ Lets you add todo's through the input field, Can be viewed below the input div.
 Todo's can be marked as completed by clicking on the checkbox.
 - **Remove Todos**  
 Can also be easily removed by using the remove todo button.
+- **Update Todos**
+Update todos by using the same title as the todo you want to update
