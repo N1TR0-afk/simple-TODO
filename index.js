@@ -39,14 +39,7 @@ function updateDomToState(state) {
   `
   document.getElementById('board').appendChild(todoBoard);
   }
-}
-// setInterval(async function() {
-//     let res = await fetch('https://sum-server.100xdevs.com/todos');
-//     let data = await res.json();
-//     pushTodos(data.todos);
-//     updateDomToState(todoArr);
-//   }, 6000);
-  
+} 
   function pushTodos(newTodoArr) {
     for (let i = 0; i < newTodoArr.length; i++) {
       if (checkWithOGTodo(newTodoArr[i]).isSame) {
